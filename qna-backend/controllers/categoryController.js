@@ -30,7 +30,7 @@ exports.getCategories = (req, res) => {
   });
 };
 
-// Perbarui kategori
+// Update kategori
 exports.updateCategory = (req, res) => {
   const { id } = req.params;
   const { category_name } = req.body;
